@@ -62,3 +62,47 @@ body {
   line-height: normal; 
   margin-top: 4px;
 }
+.card {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color:#FFF;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: normal;
+  gap:10px;
+  margin-bottom: 6px;
+}
+.button.vk {
+  background: #07F;
+}
+.button.tg {
+  background: #229ED9;
+}
+.button.yt {
+  background: #C4302B;
+}
+.button.hh {
+  background-color: #d6001c;
+}
